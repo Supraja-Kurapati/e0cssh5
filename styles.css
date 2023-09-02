@@ -1,0 +1,187 @@
+body{
+    width: 100vw;
+    background-image: url(./sahara.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+}
+.maincontainer1{
+    margin: 30px 150px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.camellogo{
+    margin-left: 50px;
+}
+.navbar{
+width: 350px;
+    display: flex;
+justify-content: space-around;
+}
+.navmenu{
+width: 250px;
+color: white;
+font-family: serif;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+.icon{
+margin-top: 10px;
+}
+.maincontainer2{
+    margin: 45px;
+    display: flex ;
+    justify-content: space-around;
+}
+.contentpart{
+    width: 450px;
+    margin-top: 110px ;
+color: white;
+text-wrap: wrap;
+}
+.text{
+    font-size: 60px;
+    font-weight: bolder;
+    font-family: serif;
+}
+.imagepart{
+display: grid;
+grid-template-columns: 200px 200px;
+grid-template-rows: 200px 200px;
+gap: 20px;
+}
+.box{
+border-radius: 15px;
+transform: 0.5s;
+}
+.box:hover{
+    transform: translateY(-10px);
+}
+.img1{
+    background-image: url(./pic-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img2{
+    background-image: url(./pic-2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img3{
+    background-image: url(./pic-3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img4{
+    background-image: url(./pic-4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+button{
+    width: 100px;
+    height: 30px;
+    background-color: white;
+    border: 1px solid grey ;
+    border-radius: 15px;
+    font-family: serif;
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+@media screen and (min-width:550px) and (max-width:900px){
+body{
+    height: 100vh;
+    background-repeat: repeat;
+    background-position: center;
+}
+.maincontainer1{
+    margin: 20px 60px;
+}
+.camellogo{
+    margin-left: 0px;
+}
+.maincontainer2{
+    margin: 20px;
+    display: block;
+}
+.contentpart{
+    margin: 20px;
+    width: auto;
+}
+.imagepart{
+    grid-template-columns: 550px;
+    grid-template-rows: 250px 250px 250px 250px;
+place-content: center;
+gap: 25px;
+}
+.img1{
+    background-size: cover;
+    background-position: center;
+}
+.img2{
+    background-size: cover;
+    background-position: center;
+}
+.img3{
+    background-size: cover;
+    background-position: center;
+}
+.img4{
+    background-size: cover;
+    background-position: center;
+}
+}
+
+@media screen and (min-width:200px) and (max-width:550px){
+body{
+    width: 100vw;
+height: 100vh;
+background-repeat: repeat;
+background-position: center;
+align-content: center;
+}
+    
+.maincontainer1{
+margin: 0px 0px;
+}
+ul{
+    display: block;
+}
+.camellogo{
+    margin: 10px;
+}
+.navbar{
+    width: 150px;
+}
+.icon{
+    margin:20px 50px;
+}
+.maincontainer2{
+    margin: 15px;
+    display: block;
+}
+.contentpart{
+    width: auto;
+    margin-top: 50px ;
+color: white;
+text-wrap: wrap;
+   
+}
+.imagepart{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 200px;
+    grid-template-rows: 210px 210px 210px 210px;
+    gap: 20px;
+    place-content: center;
+}
+}
+
+
